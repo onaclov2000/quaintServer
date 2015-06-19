@@ -15,11 +15,12 @@ Caveats:
 
 
 # installing
+
     npm install
     
 Now run it by typing
    
-   node app.js
+    node app.js
   
 Next open your server.html file (just double click it directly, aka open it as a file:///).
 

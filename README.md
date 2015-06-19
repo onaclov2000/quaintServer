@@ -7,6 +7,7 @@ In theory you could write 5 different server.html/server.js implementations, hav
 Additionally I would love to be able to build say this really simple app.js into my browser, and then push my public IP (the tricky part is that we have firewalls, in the current setup we work aroudn that using this node app.js). If we can work around the whole firewalls (without having to actually open them up) we could have chromebooks that are exclusively web browsers, and you could have a section of the site up/down at a time, if you say setup a different route in each "server". It's a really interesting concept.
 
 Caveats: 
+
 1.   If you run the npm intall inside your network, this will only work inside your network.
         If you install this on a common server with a static IP, you can just update the ip address reference to point to that, so it'll really truly work across the internet. (not sure if there will be timing issues).
 2.  If you want to reload a second route, I'm not sure what's going on it so it dies... Somehow resending the res just fails, and I don't understand yet why.

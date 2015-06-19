@@ -9,10 +9,8 @@ Additionally I would love to be able to build say this really simple app.js into
 Caveats: 
 1.   If you run the npm intall inside your network, this will only work inside your network.
         If you install this on a common server with a static IP, you can just update the ip address reference to point to that, so it'll really truly work across the internet. (not sure if there will be timing issues).
-
 2.  If you want to reload a second route, I'm not sure what's going on it so it dies... Somehow resending the res just fails, and I don't understand yet why.
-
-3. Also if you try to run multiple "servers" the fist one loads fine.Susequent loads also fail (I haven't really done any troubleshooting on this one, as I don't get errors, it just hangs, never responds).
+3.  Also if you try to run multiple "servers" the fist one loads fine.Susequent loads also fail (I haven't really done any troubleshooting on this one, as I don't get errors, it just hangs, never responds).
 
 
 # installing

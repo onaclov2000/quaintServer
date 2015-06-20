@@ -22,12 +22,14 @@ app.get('*', function(req, res) {
     }); // Emit to everyone that is calling
 
     response = res;
+    /*  // Not quite working right
     setTimeout(function() {
         if (response) {
             response.send("This Endpoint isn't built, please check your url");
             response = {};
         }
     }, 1000)
+    */
 });
 
 http.listen(3000, function() {

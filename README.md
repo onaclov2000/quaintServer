@@ -39,3 +39,5 @@ I have tons, but those will become clearer and clearer as time goes on.
 
 
 [Quaint Server Demo Video](http://youtu.be/ls0_Pse4t10)
+
+[Quaint Server Demo with Muptiple End Points](http://youtu.be/gZQrrFJMaps)

@@ -1,5 +1,6 @@
-// I don't see any reason you couldn't "pipe" the io.emit (route_request) as a part of
-// say an express like app...but in the browser.
+// This example DOES NOT WORK....
+
+// I have no idea how to implement the indexedDB concept. I might go with localstorage for now.
 var routes = [];
 routes.push('/message'); // I only have 2 routes.
 routes.push('/messages'); // I only have 2 routes.

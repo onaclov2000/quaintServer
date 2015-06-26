@@ -24,7 +24,7 @@ Next open your server.html file (just double click it directly, aka open it as a
 
 the console for node app.js should state A new server has connected. (maybe a better name is possible but whatever).
 
-Finally open a browser and type in the URL <ip address>\onaclovtech
+Finally open a browser and type in the URL http://ip address:port\onaclovtech
 
 The results should display onaclovtech on the page (I want to actually return a files contents, but yea.... I can't do that for some reason.... haven't figured out the File api).
 

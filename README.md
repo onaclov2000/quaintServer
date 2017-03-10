@@ -6,7 +6,10 @@ In theory you could write 5 different server.html/server.js implementations, hav
 
 Additionally I would love to be able to build this really simple app.js into my browser, and then push my public IP (the tricky part is that we have firewalls, in the current setup we work aroudn that using this node app.js). If we can work around the whole firewalls (without having to actually open them up) we could have chromebooks that are exclusively web browsers, and you could have a section of the site up/down at a time, if you say setup a different route in each "server". It's a really interesting concept.
 
-one approach ive been considering is using web rtc to route and connect a websocket between browsers, but havent gottent to a point of implementation yet
+#NOTE
+WEBRTC is one of the things I want to investigate with this (noted below)
+
+one approach ive been considering is using web rtc to route and connect a websocket between browsers, but havent gottent to a point of implementation yet. One of my ultimate goals is to be able to SSH through the data channel of WebRTC
 
 Caveat: 
 
